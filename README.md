@@ -1,4 +1,3 @@
-<img width="1392" alt="Screenshot 2024-08-05 at 5 32 33 AM" src="https://github.com/user-attachments/assets/bc6527f1-d77c-4591-803b-0d19ef990da4">
 
 # React + Vite
 
