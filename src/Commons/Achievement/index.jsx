@@ -10,8 +10,8 @@ const Achievement = () => {
     useEffect(() => {
         const timeOutId = setTimeout(() => {
             setClients(15);
-            setExperience(3);
-            setProjects(20);
+            setExperience(5);
+            setProjects(25);
         }, 3000);
 
         return () => clearTimeout(timeOutId);
@@ -33,7 +33,7 @@ const Achievement = () => {
                 <ReactOdometer value={clients} className='title'/>
                 <h1 className="title">+</h1>
             </div>
-            <p className="muted name">Clients Worldwide</p>
+            <p className="muted name">Clients </p>
         </div>
 
         

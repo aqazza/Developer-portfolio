@@ -54,11 +54,11 @@ export const whyChooseMe = [
     icon: <FaLaptopCode/>,
     link: "",
   },
-  {
-    title: "Cybersecurity Focus",
-    icon: <IoShieldCheckmark/>,
-    link: "",
-  },
+  // {
+  //   title: "Cybersecurity Focus",
+  //   icon: <IoShieldCheckmark/>,
+  //   link: "",
+  // },
   {
     title: "Continuous Learning",
     icon: <TfiWrite/>,
@@ -86,13 +86,13 @@ export const services = [
     using cutting edge technologies. My full stack expertise ensures end to end development that meets 
     your business needs while providing optimal performance and scalability.`,
   },
-  {
-    name: "Cybersecurity Solutions",
-    icon: <IoShieldCheckmark/>,
-    description: `I implement robust security measures to protect your digital assets from potential threats. 
-    My expertise in cybersecurity ensures that your applications and systems are fortified against 
-    vulnerabilities, giving you peace of mind in an increasingly digital world.`,
-  },
+  // {
+  //   name: "Cybersecurity Solutions",
+  //   icon: <IoShieldCheckmark/>,
+  //   description: `I implement robust security measures to protect your digital assets from potential threats. 
+  //   My expertise in cybersecurity ensures that your applications and systems are fortified against 
+  //   vulnerabilities, giving you peace of mind in an increasingly digital world.`,
+  // },
   {
     name: "UI/UX Design",
     icon: <FaPaintBrush/>,
@@ -119,20 +119,20 @@ export const services = [
     description: `I create robust, well documented APIs that power seamless communication between different 
     software systems. Whether RESTful or GraphQL, my APIs are designed for efficiency, scalability, and ease of integration.`,
   },
-  {
-    name: "Cloud Solutions",
-    icon: <FaCloud/>,
-    description: `I leverage cloud technologies to build scalable, resilient applications. From serverless 
-    architectures to containerized deployments, I help you harness the full potential of cloud platforms like AWS, 
-    Azure, or Google Cloud.`,
-  },
-  {
-    name: "AI and Machine Learning Integration",
-    icon: <BsRobot/>,
-    description: `I integrate AI and machine learning capabilities into applications, 
-    leveraging these technologies to create intelligent, data-driven solutions that can 
-    adapt and improve over time.`,
-  },
+  // {
+  //   name: "Cloud Solutions",
+  //   icon: <FaCloud/>,
+  //   description: `I leverage cloud technologies to build scalable, resilient applications. From serverless 
+  //   architectures to containerized deployments, I help you harness the full potential of cloud platforms like AWS, 
+  //   Azure, or Google Cloud.`,
+  // },
+  // {
+  //   name: "AI and Machine Learning Integration",
+  //   icon: <BsRobot/>,
+  //   description: `I integrate AI and machine learning capabilities into applications, 
+  //   leveraging these technologies to create intelligent, data-driven solutions that can 
+  //   adapt and improve over time.`,
+  // },
 ]
 
 export const skills = [
@@ -194,7 +194,7 @@ export const skills = [
       },
       {
         skill: "Bootstrap",
-        level: "Intermediate",
+        level: "Experienced",
       },
       {
         skill: "Vue.js",
@@ -235,35 +235,35 @@ export const skills = [
       },
     ]
   },
-  {
-    title: "Cybersecurity",
-    data: [
-      {
-        skill: "Network Security",
-        level: "Experienced",
-      },
-      {
-        skill: "Penetration Testing",
-        level: "Experienced",
-      },
-      {
-        skill: "Security Auditing",
-        level: "Experienced",
-      },
-      {
-        skill: "Digital Forensics",
-        level: "Experienced",
-      },
-      {
-        skill: "Threat Modeling",
-        level: "Intermediate",
-      },
-      {
-        skill: "Incident Response",
-        level: "Intermediate",
-      },
-    ]
-  },
+  // {
+  //   title: "Cybersecurity",
+  //   data: [
+  //     {
+  //       skill: "Network Security",
+  //       level: "Experienced",
+  //     },
+  //     {
+  //       skill: "Penetration Testing",
+  //       level: "Experienced",
+  //     },
+  //     {
+  //       skill: "Security Auditing",
+  //       level: "Experienced",
+  //     },
+  //     {
+  //       skill: "Digital Forensics",
+  //       level: "Experienced",
+  //     },
+  //     {
+  //       skill: "Threat Modeling",
+  //       level: "Intermediate",
+  //     },
+  //     {
+  //       skill: "Incident Response",
+  //       level: "Intermediate",
+  //     },
+  //   ]
+  // },
   {
     title: "Cloud & DevOps",
     data: [
@@ -305,10 +305,6 @@ export const skills = [
         level: "Experienced",
       },
       {
-        skill: "Redis",
-        level: "Basic",
-      },
-      {
         skill: "Database Optimization",
         level: "Intermediate",
       },
@@ -348,7 +344,7 @@ export const skills = [
     data: [
       {
         skill: "Figma",
-        level: "Experienced",
+        level: "Intermediate",
       },
       {
         skill: "Sketch",
@@ -364,27 +360,27 @@ export const skills = [
       },
     ]
   },
-  {
-    title: "Emerging Technologies",
-    data: [
-      {
-        skill: "Machine Learning",
-        level: "Intermediate",
-      },
-      {
-        skill: "IoT Development",
-        level: "Intermediate",
-      },
-      {
-        skill: "Serverless Architecture",
-        level: "Intermediate",
-      },
-      {
-        skill: "Progressive Web Apps",
-        level: "Intermediate",
-      },
-    ]
-  },
+  // {
+  //   title: "Emerging Technologies",
+  //   data: [
+  //     {
+  //       skill: "Machine Learning",
+  //       level: "Intermediate",
+  //     },
+  //     {
+  //       skill: "IoT Development",
+  //       level: "Intermediate",
+  //     },
+  //     {
+  //       skill: "Serverless Architecture",
+  //       level: "Intermediate",
+  //     },
+  //     {
+  //       skill: "Progressive Web Apps",
+  //       level: "Intermediate",
+  //     },
+  //   ]
+  // },
 ]
 
 export const projects = [
@@ -716,7 +712,7 @@ export const clients = [
     image: client1,
     name: 'Alex Thompson',
     position: 'CTO of TechInnovate',
-    review: `Working with Awe Joseph was a game changer for our startup. His technical expertise 
+    review: `Working with Anas Qazza was a game changer for our startup. His technical expertise 
              and innovative approach transformed our ideas into a robust, scalable platform. What 
              impressed me most was his ability to anticipate potential security issues and address 
              them proactively. A true professional who delivers beyond expectations!`
@@ -725,7 +721,7 @@ export const clients = [
     image: client2,
     name: 'Sarah Chen',
     position: 'Product Manager at GlobalSoft',
-    review: `I can't speak highly enough of Awe Joseph's work. He took our outdated website and 
+    review: `I can't speak highly enough of Anas' work. He took our outdated website and 
              turned it into a modern, user friendly interface that has significantly improved our 
              customer engagement. His attention to detail and commitment to delivering a secure, 
              high performance solution was evident throughout the project.`
@@ -734,16 +730,15 @@ export const clients = [
     image: client3,
     name: 'Michael Okonkwo',
     position: 'Founder of AfriTech Solutions',
-    review: `Awe Joseph's expertise in both frontend and backend development was crucial in 
+    review: `Anas and his expertise in both frontend and backend development was crucial in 
              building our complex web application. He navigated challenging technical requirements 
-             with ease and always kept us informed about the progress. His cybersecurity insights 
-             added an extra layer of value to the project. Highly recommended!`
+             with ease and always kept us informed about the progress.`
   },
   {
     image: client4,
     name: 'Emily Rodriguez',
     position: 'COO of MobileFirst Inc.',
-    review: `We hired Awe Joseph to develop a mobile app for our business, and the results exceeded 
+    review: `We hired Anas to develop a mobile app for our business, and the results exceeded 
              our expectations. His proficiency in Flutter delivered a smooth, responsive app 
              that our users love. Moreover, his proactive approach to security gave us confidence 
              in the integrity of our product.`
@@ -752,27 +747,26 @@ export const clients = [
     image: client5,
     name: 'David Nwosu',
     position: 'IT Director at AfriBank',
-    review: `Awe Joseph's technical skills are matched only by his excellent communication and 
+    review: `Anas and his technical skills are matched only by his excellent communication and 
              project management abilities. He took the time to understand our business needs and 
-             delivered a solution that not only met but exceeded our requirements. His cybersecurity 
-             expertise was an added bonus that ensured our peace of mind.`
+             delivered a solution that not only met but exceeded our requirements.`
   },
 ];
 
 export const contactOptions = [
   {
     title:"Email",
-    value:"awejosepholaitan@gmail.com",
+    value:"anasqazza@gmail.com",
     icon:<MdEmail />,
   },
   {
     title:"Phone Number",
-    value:"+2349034018552",
+    value:"714-204-5079",
     icon:<FaPhoneAlt/>,
   },
   {
     title:"Address",
-    value:"Lagos, Nigeria",
+    value:"Cypress,CA",
     icon:<FaMapMarkerAlt/>,
   },
 ]
@@ -781,18 +775,18 @@ export const socialHandles = [
     {
       name:"LinkedIn",
       icon:<FaLinkedin/>,
-      link:"https://www.linkedin.com/in/awejosepholaitan",
+      link:"https://www.linkedin.com/in/anas-qazza",
     },
-    {
-      name:"Instagram",
-      icon:<FaInstagram />,
-      link:"https://instagram.com/tech_apostle/",
-    },
-    {
-      name:"Twitter",
-      icon:<FaXTwitter/>,
-      link:"https://twitter.com/@kiss_johzzy",
-    },
+    // {
+    //   name:"Instagram",
+    //   icon:<FaInstagram />,
+    //   link:"https://instagram.com/tech_apostle/",
+    // },
+    // {
+    //   name:"Twitter",
+    //   icon:<FaXTwitter/>,
+    //   link:"https://twitter.com/@kiss_johzzy",
+    // },
     {
       name:"Github",
       icon:<FaGithub/>,
@@ -816,12 +810,12 @@ export const footer = [
         {name:"Testimonials",id:'testimonials'},
       ]
     },
-  {
-      title:"Others",
-      routes:[
-        {name:"Privacy Policy"},
-        {name:"Terms and Conditions"},
-        {name:"Cookie Policy"},
-      ]
-    },
+  // {
+  //     title:"Others",
+  //     routes:[
+  //       {name:"Privacy Policy"},
+  //       {name:"Terms and Conditions"},
+  //       {name:"Cookie Policy"},
+  //     ]
+  //   },
 ]

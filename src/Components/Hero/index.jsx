@@ -14,7 +14,7 @@ const Hero = () => {
   const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
   const [startTyping, setStartTyping] = useState(false); // New state for initial delay
 
-  const titles = ['Software Engineer.', 'Web Developer.', 'Cybersecurity Engineer.'];
+  const titles = ['Software Engineer.', 'Web Developer.', 'Data Analyst.'];
 
   useEffect(() => {
     AOS.init({
@@ -98,7 +98,7 @@ const getClassNames = () => {
       <div className="wrapper info-container">
         <div className="column">
           <h3 className='sub-title' data-aos='fade-right'>
-            Hello, I'm <span className='primary'>Awe Joseph</span>
+            Hello, I'm <span className='primary'>Anas Qazza</span>
           </h3>
           <h1 className="heading-1" data-aos='fade-up'>
             A <span className="gradient-text">Fullstack</span>
@@ -118,7 +118,7 @@ const getClassNames = () => {
           </div>
         </div>
         <div className="column hero-image" data-aos='fade-left' data-aos-delay='100'>
-          <img src={me} alt="Awe Joseph"/>
+          <img src={me} alt="Anas Qazza"/>
         </div>
       </div>
       <div className="achievement-cluster">
