@@ -11,7 +11,7 @@ const About = () => {
             <span className="gradient-text">About Me</span>
           </h1>
           <h4 className="sub-title muted" data-aos='fade-left'>
-            I'm Anas Qazza, a dedicated software engineer with a strong foundation in full-stack development, specializing in technologies such as Node.js, Java,
+            I'm Anas, a dedicated software engineer with a strong foundation in full-stack development, specializing in technologies such as Node.js, Java,
              Spring, and Python. I have over three years of hands-on experience designing, developing, and maintaining complex software solutions, including mobile 
              applications and e-commerce platforms. Transitioning from a background in Business Administration - Marketing to Software Engineering, I leveraged my problem-solving 
              skills and technical expertise to excel in freelance projects that required both front-end and back-end development. 

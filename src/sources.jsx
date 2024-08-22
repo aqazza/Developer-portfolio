@@ -12,7 +12,7 @@ import { FaChartBar, FaCloud, FaPhoneAlt, FaMapMarkerAlt, FaUserCheck, FaHeadset
 import { FaXTwitter } from "react-icons/fa6";
 import { MdEmail, MdAnalytics } from "react-icons/md";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiExpress, SiMongodb, SiSwift, SiKotlin, SiPostman, SiXcode, SiFlutter, SiAdobexd, SiCss3, SiJavascript, SiTypescript, SiTailwindcss, SiNextdotjs, SiHtml5, SiSvelte, SiPrismic, SiPowershell } from "react-icons/si";
+import { SiExpress, SiMongodb, SiSwift, SiKotlin, SiPostman, SiXcode, SiFlutter, SiAdobexd, SiCss3, SiJavascript, SiTypescript, SiTailwindcss, SiNextdotjs, SiHtml5, SiSvelte, SiPrismic, SiPowershell, SiReact } from "react-icons/si";
 import { TbBrandReactNative, TbDeviceMobileCode } from "react-icons/tb";
 import { AiFillAndroid } from "react-icons/ai";
 import { BsRobot } from "react-icons/bs";
@@ -21,37 +21,37 @@ import { TfiWrite } from "react-icons/tfi";
 import { IoShieldCheckmark } from "react-icons/io5";
 
 export const tabs = [
-    {name:"About Me",id:'about'},
-    {name:"Skills",id:'skill'},
-    {name:"Services",id:'services'},
-    {name:"Projects",id:'projects'},
-    {name:"Testimonials",id:'testimonials'},
+  { name: "About Me", id: 'about' },
+  { name: "Skills", id: 'skill' },
+  { name: "Services", id: 'services' },
+  { name: "Projects", id: 'projects' },
+  { name: "Testimonials", id: 'testimonials' },
 ]
 
 export const whyChooseMe = [
   {
     title: "Unparalleled Technical Expertise",
-    icon: <FaUserCheck/>,
+    icon: <FaUserCheck />,
     link: "",
   },
   {
     title: "Data Driven Solutions",
-    icon: <FaChartBar/>,
+    icon: <FaChartBar />,
     link: "",
   },
   {
     title: "Dedicated Client Support",
-    icon: <FaHeadset/>,
+    icon: <FaHeadset />,
     link: "",
   },
   {
     title: "Innovative Problem Solving",
-    icon: <FaSyncAlt/>,
+    icon: <FaSyncAlt />,
     link: "",
   },
   {
     title: "Dynamic Development Approach",
-    icon: <FaLaptopCode/>,
+    icon: <FaLaptopCode />,
     link: "",
   },
   // {
@@ -59,14 +59,14 @@ export const whyChooseMe = [
   //   icon: <IoShieldCheckmark/>,
   //   link: "",
   // },
-  {
-    title: "Continuous Learning",
-    icon: <TfiWrite/>,
-    link: "",
-  },
+  // {
+  //   title: "Continuous Learning",
+  //   icon: <TfiWrite/>,
+  //   link: "",
+  // },
   {
     title: "Collaborative Mindset",
-    icon: <FaHandsHelping/>,
+    icon: <FaHandsHelping />,
     link: "",
   },
 ]
@@ -74,17 +74,15 @@ export const whyChooseMe = [
 export const services = [
   {
     name: "Mobile App Development",
-    icon: <TbDeviceMobileCode/>,
-    description: `I develop cross platform mobile applications that provide seamless user experiences 
-    across different devices. Leveraging versatile development frameworks, I craft seamless, high-performance 
-    applications that deliver an exceptional user experience on both iOS and Android platforms.`,
+    icon: <TbDeviceMobileCode />,
+    description: `
+I create cross-platform mobile applications that deliver smooth user experiences across various devices. Using versatile development frameworks, I build high-performance apps that ensure exceptional functionality on both iOS and Android platforms.`,
   },
   {
     name: "Web Development",
-    icon: <FaLaptopCode/>,
-    description: `From responsive websites to complex web applications, I deliver robust solutions 
-    using cutting edge technologies. My full stack expertise ensures end to end development that meets 
-    your business needs while providing optimal performance and scalability.`,
+    icon: <FaLaptopCode />,
+    description: `Delivering powerful solutions, from responsive websites to intricate web applications, by leveraging the latest technologies. With full-stack expertise, development is handled end-to-end, ensuring that your business needs are met with optimal performance and scalability.
+`,
   },
   // {
   //   name: "Cybersecurity Solutions",
@@ -95,29 +93,23 @@ export const services = [
   // },
   {
     name: "UI/UX Design",
-    icon: <FaPaintBrush/>,
-    description: `I create intuitive and visually appealing user interfaces that enhance user experience. 
-    By combining aesthetics with functionality, I ensure your digital products not only look great but also 
-    provide seamless interaction for your users.`,
+    icon: <FaPaintBrush />,
+    description: `User interfaces are designed to be both intuitive and visually captivating, enhancing the overall user experience. By balancing aesthetics with practicality, digital products are crafted to not only look appealing but also offer seamless and engaging interactions for users.`,
   },
   {
     name: "Content Creation",
-    icon: <TfiWrite/>,
-    description: `I craft compelling digital content that engages your audience and strengthens your brand. 
-    Whether it's blog posts, social media content, or technical documentation, I ensure your message is 
-    clear, concise, and impactful.`,
+    icon: <TfiWrite />,
+    description: `I create dynamic digital content that captivates your audience and elevates your brand’s presence. From engaging blog articles to impactful social media posts and clear technical documentation, I deliver content that is sharp, effective, and tailored to resonate with your target audience.`,
   },
   {
     name: "Database Design & Management",
-    icon: <FaDatabase/>,
-    description: `I design and implement efficient, scalable database solutions tailored to your specific needs. 
-    From data modeling to query optimization, I ensure your data is structured for optimal performance and easy maintenance.`,
+    icon: <FaDatabase />,
+    description: `I develop customized, high-performance database solutions that are optimized for your unique requirements. From designing data models to fine-tuning queries, I focus on creating databases that deliver top-notch performance and are easy to manage.`,
   },
   {
     name: "API Development",
-    icon: <FaServer/>,
-    description: `I create robust, well documented APIs that power seamless communication between different 
-    software systems. Whether RESTful or GraphQL, my APIs are designed for efficiency, scalability, and ease of integration.`,
+    icon: <FaServer />,
+    description: `I design and implement efficient, scalable database solutions tailored to your specific needs. From data modeling to query optimization, I ensure your data is structured for optimal performance and easy maintenance.`,
   },
   // {
   //   name: "Cloud Solutions",
@@ -397,22 +389,22 @@ export const projects = [
     stack: [
       {
         name: "ReactJs",
-        icon: <FaReact/>,
+        icon: <FaReact />,
         iconColor: "skyblue",
       },
       {
         name: "CSS",
-        icon: <SiCss3/>,
+        icon: <SiCss3 />,
         iconColor: "lightblue",
       },
       {
         name: "NodeJs",
-        icon: <FaNodeJs/>,
+        icon: <FaNodeJs />,
         iconColor: "green",
       },
       {
         name: "MongoDB",
-        icon: <SiMongodb/>,
+        icon: <SiMongodb />,
         iconColor: "limegreen",
       },
     ]
@@ -427,93 +419,82 @@ export const projects = [
     stack: [
       {
         name: "React",
-        icon: <FaReact/>,
+        icon: <FaReact />,
         iconColor: "skyblue",
       },
       {
         name: "Tailwind CSS",
-        icon: <SiTailwindcss/>,
+        icon: <SiTailwindcss />,
         iconColor: "lightblue",
       },
       {
         name: "NodeJs",
-        icon: <FaNodeJs/>,
+        icon: <FaNodeJs />,
         iconColor: "green",
       },
       {
         name: "MySQL",
-        icon: <SiCss3/>,
+        icon: <SiCss3 />,
         iconColor: "orange",
       },
     ],
   },
   {
     id: 3,
-    title: '3D Animation Portfolio',
+    title: 'Fiore Front-end CRM',
     image: animationPortfolio,
     category: "Web",
-    description: `Experience the future of web design with this immersive 3D animation portfolio. Showcasing cutting-edge techniques and creative prowess, this website pushes the boundaries of what's possible in web-based 3D animations.`,
-    demoLink: "https://awejosepholaitan.vercel.app/",
+    description: `Fiore is a front-end project for a minimalistic, modern web application. It features a clean design with smooth animations and transitions. The site likely serves as a portfolio, landing page, or product showcase, focusing on visual appeal and user interaction. Key components include a responsive layout, interactive elements, and possibly custom styling or animations, making it visually engaging.`,
+    demoLink: "https://fiore-three.vercel.app/",
     stack: [
       {
-        name: "TypeScript",
-        icon: <SiTypescript/>,
-        iconColor: "blue",
+        name: "ReactJS",
+        icon: <FaReact />,
+        iconColor: "skyblue",
       },
       {
         name: "JavaScript",
-        icon: <SiJavascript/>,
+        icon: <SiJavascript />,
         iconColor: "yellow",
       },
       {
         name: "Tailwind",
-        icon: <SiTailwindcss/>,
+        icon: <SiTailwindcss />,
         iconColor: "lightblue",
       },
       {
-        name: "Next.js",
-        icon: <SiNextdotjs/>,
-        iconColor: "black",
+        name: "CSS",
+        icon: <SiCss3 />,
+        iconColor: "lightblue",
       },
       {
-        name: "Prismic",
-        icon: <SiPrismic/>,
-        iconColor: "purple",
+        name: "HTML",
+        icon: <SiHtml5 />,
+        iconColor: "orange",
       },
     ],
   },
   {
     id: 4,
-    title: 'Interactive Terminal Website',
+    title: 'Social Network API',
     image: interactiveTerminal,
     category: "Web",
-    description: `Step into the world of command-line interfaces with this unique terminal-themed website. Navigate through content using familiar terminal commands, offering a nostalgic yet innovative user experience for tech enthusiasts.`,
-    demoLink: "https://techapostleterminal.vercel.app/",
+    description: `Here I showcase a backend application for a social network. It features a RESTful API built with Node.js, Express.js, and MongoDB, enabling users to perform CRUD operations on user profiles, thoughts, and reactions. This API provides the essential functionality needed for a social networking platform, focusing on efficient data handling and seamless integration with other systems. The repository includes all the necessary files and documentation to understand and run the project.`,
+    demoLink: "https://github.com/aqazza/Social-NetworkAPI-AQ",
     stack: [
       {
-        name: "TypeScript",
-        icon: <SiTypescript/>,
-        iconColor: "blue",
+        name: "NodeJs",
+        icon: <FaNodeJs />,
+        iconColor: "green",
       },
       {
-        name: "JavaScript",
-        icon: <SiJavascript/>,
-        iconColor: "yellow",
+        name: "ExpressJs",
+        icon: <SiExpress />,
       },
       {
-        name: "CSS",
-        icon: <SiCss3/>,
-        iconColor: "lightblue",
-      },
-      {
-        name: "HTML",
-        icon: <SiHtml5/>,
-        iconColor: "orange",
-      },
-      {
-        name: "Svelte",
-        icon: <SiSvelte/>,
-        iconColor: "red",
+        name: "MongoDB",
+        icon: <SiMongodb />,
+        iconColor: "limegreen",
       },
     ],
   },
@@ -527,52 +508,57 @@ export const projects = [
     stack: [
       {
         name: "TypeScript",
-        icon: <SiTypescript/>,
+        icon: <SiTypescript />,
         iconColor: "blue",
       },
       {
         name: "JavaScript",
-        icon: <SiJavascript/>,
+        icon: <SiJavascript />,
         iconColor: "yellow",
       },
       {
         name: "CSS",
-        icon: <SiCss3/>,
+        icon: <SiCss3 />,
         iconColor: "lightblue",
       },
       {
         name: "Shell",
-        icon: <SiPowershell/>,
+        icon: <SiPowershell />,
         iconColor: "black",
       },
     ],
   },
   {
     id: 6,
-    title: 'Dynamic Terminal Portfolio',
+    title: 'Career Portfolio',
     image: dynamicTerminal,
     category: "Web",
-    description: `Experience a blend of nostalgia and innovation with this animated terminal-themed portfolio website. Featuring dynamic animations and interactive elements, this project showcases technical skills and creativity in a unique, engaging format.`,
-    demoLink: "https://awejosephterminal.vercel.app/",
+    description: `I present a snapshot of my professional journey, showcasing my skills in software development, including full-stack projects and expertise in modern technologies. The site highlights my work, offering potential employers and clients a clear view of my abilities and accomplishments through a clean and user-friendly design. It's designed to be a comprehensive portfolio that effectively communicates my technical expertise and passion for creating robust digital solutions.`,
+    demoLink: "https://anasqazza.vercel.app/",
     stack: [
       {
         name: "JavaScript",
-        icon: <SiJavascript/>,
+        icon: <SiJavascript />,
         iconColor: "yellow",
       },
       {
         name: "CSS",
-        icon: <SiCss3/>,
+        icon: <SiCss3 />,
         iconColor: "blue",
       },
       {
         name: "HTML",
-        icon: <SiHtml5/>,
+        icon: <SiHtml5 />,
         iconColor: "orange",
+      },
+      {
+        name: "ReactJs",
+        icon: <FaReact />,
+        iconColor: "skyblue",
       },
     ],
   },
-  { 
+  {
     id: 7,
     title: 'AI Powered School',
     image: 'https://cdn.dribbble.com/userupload/10064191/file/original-091c06a630285b93a5f81e29e882fe3c.png',
@@ -585,7 +571,7 @@ export const projects = [
     stack: [
       {
         name: "XD",
-        icon: <SiAdobexd/>,
+        icon: <SiAdobexd />,
         iconColor: "skyblue",
       },
     ]
@@ -603,21 +589,21 @@ export const projects = [
     stack: [
       {
         name: "ReactJs",
-        icon: <FaReact/>,
+        icon: <FaReact />,
         iconColor: "skyblue",
       },
       {
         name: "NodeJs",
-        icon: <FaNodeJs/>,
+        icon: <FaNodeJs />,
         iconColor: "green",
       },
       {
         name: "ExpressJs",
-        icon: <SiExpress/>,
+        icon: <SiExpress />,
       },
       {
         name: "MongoDB",
-        icon: <SiMongodb/>,
+        icon: <SiMongodb />,
         iconColor: "limegreen",
       },
     ]
@@ -636,21 +622,21 @@ export const projects = [
     stack: [
       {
         name: "React Native",
-        icon: <TbBrandReactNative/>,
+        icon: <TbBrandReactNative />,
         iconColor: "skyblue",
       },
       {
         name: "NodeJs",
-        icon: <FaNodeJs/>,
+        icon: <FaNodeJs />,
         iconColor: "green",
       },
       {
         name: "ExpressJs",
-        icon: <SiExpress/>,
+        icon: <SiExpress />,
       },
       {
         name: "MongoDB",
-        icon: <SiMongodb/>,
+        icon: <SiMongodb />,
         iconColor: "limegreen",
       },
     ]
@@ -668,7 +654,7 @@ export const projects = [
     stack: [
       {
         name: "Figma",
-        icon: <FaFigma/>,
+        icon: <FaFigma />,
         iconColor: "orangered",
       },
     ]
@@ -686,21 +672,21 @@ export const projects = [
     stack: [
       {
         name: "React Native",
-        icon: <TbBrandReactNative/>,
+        icon: <TbBrandReactNative />,
         iconColor: "skyblue",
       },
       {
         name: "NodeJs",
-        icon: <FaNodeJs/>,
+        icon: <FaNodeJs />,
         iconColor: "green",
       },
       {
         name: "ExpressJs",
-        icon: <SiExpress/>,
+        icon: <SiExpress />,
       },
       {
         name: "MongoDB",
-        icon: <SiMongodb/>,
+        icon: <SiMongodb />,
         iconColor: "limegreen",
       },
     ]
@@ -755,61 +741,61 @@ export const clients = [
 
 export const contactOptions = [
   {
-    title:"Email",
-    value:"anasqazza@gmail.com",
-    icon:<MdEmail />,
+    title: "Email",
+    value: "anasqazza@gmail.com",
+    icon: <MdEmail />,
   },
   {
-    title:"Phone Number",
-    value:"714-204-5079",
-    icon:<FaPhoneAlt/>,
+    title: "Phone Number",
+    value: "714-204-5079",
+    icon: <FaPhoneAlt />,
   },
   {
-    title:"Address",
-    value:"Cypress,CA",
-    icon:<FaMapMarkerAlt/>,
+    title: "Address",
+    value: "Cypress,CA",
+    icon: <FaMapMarkerAlt />,
   },
 ]
 
-export const socialHandles = [   
-    {
-      name:"LinkedIn",
-      icon:<FaLinkedin/>,
-      link:"https://www.linkedin.com/in/anas-qazza",
-    },
-    // {
-    //   name:"Instagram",
-    //   icon:<FaInstagram />,
-    //   link:"https://instagram.com/tech_apostle/",
-    // },
-    // {
-    //   name:"Twitter",
-    //   icon:<FaXTwitter/>,
-    //   link:"https://twitter.com/@kiss_johzzy",
-    // },
-    {
-      name:"Github",
-      icon:<FaGithub/>,
-      link:"https://github.com/Jossyboydgenius",
-    },
+export const socialHandles = [
+  {
+    name: "LinkedIn",
+    icon: <FaLinkedin />,
+    link: "https://www.linkedin.com/in/anas-qazza",
+  },
+  // {
+  //   name:"Instagram",
+  //   icon:<FaInstagram />,
+  //   link:"https://instagram.com/tech_apostle/",
+  // },
+  // {
+  //   name:"Twitter",
+  //   icon:<FaXTwitter/>,
+  //   link:"https://twitter.com/@kiss_johzzy",
+  // },
+  {
+    name: "Github",
+    icon: <FaGithub />,
+    link: "https://github.com/Jossyboydgenius",
+  },
 ];
 
 export const footer = [
   {
-    title:"Explore",
-    routes:[
-      {name:"About Me",id:'about'},
-      {name:"Skills",id:'skill'},
+    title: "Explore",
+    routes: [
+      { name: "About Me", id: 'about' },
+      { name: "Skills", id: 'skill' },
     ]
   },
   {
-      title:"Trusted",
-      routes:[
-        {name:"Services",id:'services'},
-        {name:"Projects",id:'projects'},
-        {name:"Testimonials",id:'testimonials'},
-      ]
-    },
+    title: "Trusted",
+    routes: [
+      { name: "Services", id: 'services' },
+      { name: "Projects", id: 'projects' },
+      { name: "Testimonials", id: 'testimonials' },
+    ]
+  },
   // {
   //     title:"Others",
   //     routes:[
