@@ -7,7 +7,7 @@ import photographyScreenshot from "./assets/photography-portfolio-screenshot.png
 import blogWebsite from "./assets/blog-website.png";
 import animationPortfolio from "./assets/3D-animation-portfolio.png";
 import interactiveTerminal from "./assets/interactive-terminal-website.png";
-import terminalPortfolio from "./assets/terminal-portfolio-showcase.png";
+import nextMotion from "./assets/nextMotion.png";
 import dynamicTerminal from "./assets/dynamic-terminal-portfolio.png";
 import {
   FaChartBar,
@@ -456,36 +456,36 @@ export const projects = [
       },
     ],
   },
-  // {
-  //   id: 5,
-  //   title: "Terminal Portfolio Showcase",
-  //   image: terminalPortfolio,
-  //   category: "Web",
-  //   description: `Discover a unique approach to personal branding with this terminal-themed portfolio website. Presenting professional accomplishments and skills through a command-line interface, it offers an engaging and memorable user experience for fellow developers and tech recruiters.`,
-  //   demoLink: "https://aj-terminalportfolio.vercel.app/",
-  //   stack: [
-  //     {
-  //       name: "TypeScript",
-  //       icon: <SiTypescript />,
-  //       iconColor: "blue",
-  //     },
-  //     {
-  //       name: "JavaScript",
-  //       icon: <SiJavascript />,
-  //       iconColor: "yellow",
-  //     },
-  //     {
-  //       name: "CSS",
-  //       icon: <SiCss3 />,
-  //       iconColor: "lightblue",
-  //     },
-  //     {
-  //       name: "Shell",
-  //       icon: <SiPowershell />,
-  //       iconColor: "black",
-  //     },
-  //   ],
-  // },
+  {
+    id: 5,
+    title: "nextMotion Portfolio",
+    image: nextMotion,
+    category: "Web",
+    description: `Discover a unique approach to personal branding with this terminal-themed portfolio website. Presenting professional accomplishments and skills through a command-line interface, it offers an engaging and memorable user experience for fellow developers and tech recruiters.`,
+    demoLink: "https://anasnextportfolio.netlify.app/",
+    stack: [
+      {
+        name: "TypeScript",
+        icon: <SiTypescript />,
+        iconColor: "blue",
+      },
+      {
+        name: "JavaScript",
+        icon: <SiJavascript />,
+        iconColor: "yellow",
+      },
+      {
+        name: "CSS",
+        icon: <SiCss3 />,
+        iconColor: "lightblue",
+      },
+      {
+        name: "Shell",
+        icon: <SiPowershell />,
+        iconColor: "black",
+      },
+    ],
+  },
   {
     id: 6,
     title: "Career Portfolio",
