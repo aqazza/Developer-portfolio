@@ -18,19 +18,6 @@ const About = () => {
 
 
           </h4>
-          {/* <h4 className="sub-title muted" data-aos='fade-left'>
-            My expertise in cybersecurity ensures that every solution I deliver is not just functional, but also fortified against potential threats.
-            I approach each project with enthusiasm, whether it's developing web applications, creating software solutions, or implementing security measures.
-          </h4>
-          <h4 className="sub-title muted" data-aos='fade-left'>
-            What sets me apart is my blend of technical proficiency and creative problem solving. I don't just
-            write code; I craft experiences. Each project is an opportunity to explore new possibilities and
-            deliver solutions that exceed expectations.
-          </h4>
-          <h4 className="sub-title muted" data-aos='fade-left'>
-            If you're seeking a dedicated professional to transform complex challenges into
-            secure, efficient, and innovative solutions, let's connect and create impactful technology together.
-          </h4> */}
         </div>
         <div className="group">
           {
