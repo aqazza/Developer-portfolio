@@ -331,7 +331,7 @@ export const projects = [
     Seamlessly blending aesthetics with functionality, our platform offers more than just transactions, it creates 
     shopping experiences. From AI powered product recommendations to one click checkouts, every feature is 
     designed to delight your customers and boost your conversions. Welcome to the future of online retail.`,
-    demoLink: "https://github.com/aqazza/Nahiyah-Clothing",
+    demoLink: "https://aqazza.github.io/Nahiyah-Clothing/",
     stack: [
       {
         name: "ReactJs",
