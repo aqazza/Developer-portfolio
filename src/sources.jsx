@@ -4,7 +4,7 @@ import client3 from "./assets/client-3.jpeg";
 import client4 from "./assets/client-4.jpeg";
 import client5 from "./assets/client-5.jpeg";
 import photographyScreenshot from "./assets/photography-portfolio-screenshot.png";
-import blogWebsite from "./assets/blog-website.png";
+import ecommercesite from "./assets/ecommerce-site.png";
 import animationPortfolio from "./assets/3D-animation-portfolio.png";
 import interactiveTerminal from "./assets/interactive-terminal-website.png";
 import nextMotion from "./assets/nextMotion.png";
@@ -29,32 +29,20 @@ import {
   FaFigma,
   FaLinkedin,
 } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { MdEmail, MdAnalytics } from "react-icons/md";
-import { IoLogoJavascript } from "react-icons/io";
+import { MdEmail } from "react-icons/md";
 import {
   SiExpress,
   SiMongodb,
-  SiSwift,
-  SiKotlin,
-  SiPostman,
-  SiXcode,
-  SiFlutter,
-  SiAdobexd,
   SiCss3,
   SiJavascript,
   SiTypescript,
   SiTailwindcss,
   SiNextdotjs,
   SiHtml5,
-  SiSvelte,
-  SiPrismic,
   SiPowershell,
   SiReact,
 } from "react-icons/si";
-import { TbBrandReactNative, TbDeviceMobileCode } from "react-icons/tb";
-import { AiFillAndroid } from "react-icons/ai";
-import { BsRobot } from "react-icons/bs";
+import { TbDeviceMobileCode } from "react-icons/tb";
 import { FaHandsHelping } from "react-icons/fa";
 import { TfiWrite } from "react-icons/tfi";
 import { IoShieldCheckmark } from "react-icons/io5";
@@ -337,7 +325,7 @@ export const projects = [
   {
     id: 1,
     title: "E-Commerce Website",
-    image: "src/assets/ecommerce-site.png",
+    image: ecommercesite,
     category: "Web",
     description: `Elevate your online shopping experience with our state of the art E-Commerce Application. 
     Seamlessly blending aesthetics with functionality, our platform offers more than just transactions, it creates 
