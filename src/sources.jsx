@@ -9,9 +9,9 @@ import animationPortfolio from "./assets/3D-animation-portfolio.png";
 import interactiveTerminal from "./assets/interactive-terminal-website.png";
 import nextMotion from "./assets/nextMotion.png";
 import dynamicTerminal from "./assets/dynamic-terminal-portfolio.png";
+import dyme from "./assets/dyme.png";
 import {
   FaChartBar,
-  FaCloud,
   FaPhoneAlt,
   FaMapMarkerAlt,
   FaUserCheck,
@@ -20,14 +20,12 @@ import {
   FaLaptopCode,
   FaDatabase,
   FaServer,
-  FaInstagram,
-  FaTwitter,
   FaGithub,
   FaPaintBrush,
   FaReact,
   FaNodeJs,
-  FaFigma,
   FaLinkedin,
+  FaWaveSquare
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import {
@@ -37,15 +35,13 @@ import {
   SiJavascript,
   SiTypescript,
   SiTailwindcss,
-  SiNextdotjs,
   SiHtml5,
-  SiPowershell,
-  SiReact,
+  SiGraphql,
+  SiApollographql,
 } from "react-icons/si";
 import { TbDeviceMobileCode } from "react-icons/tb";
 import { FaHandsHelping } from "react-icons/fa";
 import { TfiWrite } from "react-icons/tfi";
-import { IoShieldCheckmark } from "react-icons/io5";
 
 export const tabs = [
   { name: "About Me", id: "about" },
@@ -355,36 +351,42 @@ export const projects = [
       },
     ],
   },
-  // {
-  //   id: 2,
-  //   title: "Blog website",
-  //   image: blogWebsite,
-  //   category: "Web",
-  //   description: `Dive into the world of innovation with TechInsight Blog. Our platform offers in-depth articles on startups, cutting-edge technology, AI advancements, app development, and cybersecurity. Stay informed and ahead of the curve in the rapidly evolving tech landscape.`,
-  //   demoLink: "https://github.com/Jossyboydgenius/Blog-website",
-  //   stack: [
-  //     {
-  //       name: "React",
-  //       icon: <FaReact />,
-  //       iconColor: "skyblue",
-  //     },
-  //     {
-  //       name: "Tailwind CSS",
-  //       icon: <SiTailwindcss />,
-  //       iconColor: "lightblue",
-  //     },
-  //     {
-  //       name: "NodeJs",
-  //       icon: <FaNodeJs />,
-  //       iconColor: "green",
-  //     },
-  //     {
-  //       name: "MySQL",
-  //       icon: <SiCss3 />,
-  //       iconColor: "orange",
-  //     },
-  //   ],
-  // },
+  {
+    id: 2,
+    title: "Dyme Financial Budgeting App",
+    image: dyme,
+    category: "Web",
+    description: `Dyme gives you the ability to log and categorize transactions, 
+    and a dashboard displaying financial summaries and insights. Users can monitor 
+    their spending habits, create budgets, and adjust financial plans over time, 
+    providing a comprehensive tool for achieving financial stability and planning 
+    for future expenses. It's built with React on the frontend and uses Apollo Client 
+    to communicate with a GraphQL API backend, ensuring efficient data handling and
+     user-friendly functionality.`,
+    demoLink: "https://dyme.herokuapp.com/login",
+    stack: [
+      {
+        name: "MyGraphQL",
+        icon: <SiGraphql />,
+        iconColor: "purple", // Use a color that suits GraphQL
+      },
+      {
+        name: "Apollo",
+        icon: <SiApollographql />,
+        iconColor: "darkblue", // Apollo logo color
+      },
+      {
+        name: "API",
+        icon: <FaDatabase />, // You can change this to any relevant API icon if available
+        iconColor: "orange",
+      },
+      {
+        name: "MySQL",
+        icon: <SiCss3 />,
+        iconColor: "orange",
+      },
+    ],
+  },
   {
     id: 3,
     title: "Fiore Front-end CRM",
@@ -442,6 +444,11 @@ export const projects = [
         icon: <SiMongodb />,
         iconColor: "limegreen",
       },
+      {
+        name: "API",
+        icon: <FaDatabase />, // You can change this to any relevant API icon if available
+        iconColor: "orange",
+      },
     ],
   },
   {
@@ -468,9 +475,9 @@ export const projects = [
         iconColor: "lightblue",
       },
       {
-        name: "Shell",
-        icon: <SiPowershell />,
-        iconColor: "black",
+        name: "NextMotion", // Adding NextMotion
+        icon: <FaWaveSquare />, // Placeholder icon for NextMotion, can be replaced with a specific one if available
+        iconColor: "yellow", // Choose a suitable color
       },
     ],
   },
@@ -504,25 +511,6 @@ export const projects = [
       },
     ],
   },
-  // {
-  //   id: 7,
-  //   title: "AI Powered School",
-  //   image:
-  //     "https://cdn.dribbble.com/userupload/10064191/file/original-091c06a630285b93a5f81e29e882fe3c.png",
-  //   category: "UI/UX",
-  //   description: `Imagine a learning platform where AI becomes your personal tutor. Our School UI Design 
-  //   revolutionizes education, offering an intuitive interface that adapts to each student's unique learning style. 
-  //   Smart features like personalized study plans and real time progress tracking make learning engaging and 
-  //   efficient. Step into the future of education where technology and pedagogy blend seamlessly.`,
-  //   demoLink: "https://github.com/Jossyboydgenius/Wisdom-Wizard-GPT.git",
-  //   stack: [
-  //     {
-  //       name: "XD",
-  //       icon: <SiAdobexd />,
-  //       iconColor: "skyblue",
-  //     },
-  //   ],
-  // },
   {
     id: 8,
     title: "Photography Portfolio",
@@ -561,92 +549,6 @@ export const projects = [
       }
     ],
   },
-  // {
-  //   id: 9,
-  //   title: "Project Management application",
-  //   image:
-  //     "https://miro.medium.com/v2/resize:fit:1400/1*6iO0wm8q4cByvxY6kB9WiQ.png",
-  //   category: "Apps",
-  //   description: `Say goodbye to chaotic project management and hello to streamlined success. 
-  //   Our intuitive Project Management application turns complex workflows into a breeze. With 
-  //   real time collaboration, customizable dashboards, and intelligent task prioritization, 
-  //   your team's productivity will soar to new heights. It's not just about managing projects,
-  //   it's about empowering teams to achieve greatness.`,
-  //   demoLink: "https://github.com/Jossyboydgenius/Blog-App.git",
-  //   stack: [
-  //     {
-  //       name: "React Native",
-  //       icon: <TbBrandReactNative />,
-  //       iconColor: "skyblue",
-  //     },
-  //     {
-  //       name: "NodeJs",
-  //       icon: <FaNodeJs />,
-  //       iconColor: "green",
-  //     },
-  //     {
-  //       name: "ExpressJs",
-  //       icon: <SiExpress />,
-  //     },
-  //     {
-  //       name: "MongoDB",
-  //       icon: <SiMongodb />,
-  //       iconColor: "limegreen",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 10,
-  //   title: "Mobile bank - App Design",
-  //   image:
-  //     "https://i.pinimg.com/originals/a0/be/c3/a0bec3706210e6ab28470eee95bf5889.png",
-  //   category: "UI/UX",
-  //   description: `Banking reimagined for the digital age. Our Mobile Bank app design puts financial 
-  //   power at your fingertips with a sleek, intuitive interface. From seamless transactions to 
-  //   personalized financial insights, every tap brings you closer to your financial goals. It's not 
-  //   just a banking app, it's your personal financial companion, available 24/7.`,
-  //   demoLink: "https://awejosepholaitan.vercel.app/",
-  //   stack: [
-  //     {
-  //       name: "Figma",
-  //       icon: <FaFigma />,
-  //       iconColor: "orangered",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 11,
-  //   title: "Quiz App Development",
-  //   image:
-  //     "https://i.pinimg.com/originals/b3/35/02/b33502e465346ace2a7f1df203d851a3.jpg",
-  //   category: "Apps",
-  //   description: `Learning meets excitement in our innovative Quiz App. Designed to make knowledge 
-  //   acquisition addictive, this app turns every question into an opportunity for growth. With 
-  //   adaptive difficulty levels, multimedia content, and social learning features, it transforms 
-  //   the way people engage with information. Get ready to quiz, learn, and grow, all at the tap of a screen.`,
-  //   demoLink: "https://wakatime.com/@TechApostle",
-  //   stack: [
-  //     {
-  //       name: "React Native",
-  //       icon: <TbBrandReactNative />,
-  //       iconColor: "skyblue",
-  //     },
-  //     {
-  //       name: "NodeJs",
-  //       icon: <FaNodeJs />,
-  //       iconColor: "green",
-  //     },
-  //     {
-  //       name: "ExpressJs",
-  //       icon: <SiExpress />,
-  //     },
-  //     {
-  //       name: "MongoDB",
-  //       icon: <SiMongodb />,
-  //       iconColor: "limegreen",
-  //     },
-  //   ],
-  // },
 ];
 
 export const clients = [
