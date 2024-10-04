@@ -10,6 +10,7 @@ import interactiveTerminal from "./assets/interactive-terminal-website.png";
 import nextMotion from "./assets/nextMotion.png";
 import dynamicTerminal from "./assets/dynamic-terminal-portfolio.png";
 import dyme from "./assets/dyme.png";
+import voovo from "./assets/Voovo.png";
 import {
   FaChartBar,
   FaPhoneAlt,
@@ -25,7 +26,7 @@ import {
   FaReact,
   FaNodeJs,
   FaLinkedin,
-  FaWaveSquare
+  FaWaveSquare,
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import {
@@ -38,6 +39,7 @@ import {
   SiHtml5,
   SiGraphql,
   SiApollographql,
+  SiNextdotjs,
 } from "react-icons/si";
 import { TbDeviceMobileCode } from "react-icons/tb";
 import { FaHandsHelping } from "react-icons/fa";
@@ -455,7 +457,7 @@ export const projects = [
     id: 5,
     title: "nextMotion Portfolio",
     image: nextMotion,
-    category: "Web",
+    category: "Portfolio",
     description: `Discover a unique approach to personal branding with this terminal-themed portfolio website. Presenting professional accomplishments and skills through a command-line interface, it offers an engaging and memorable user experience for fellow developers and tech recruiters.`,
     demoLink: "https://anasnextportfolio.netlify.app/",
     stack: [
@@ -485,7 +487,7 @@ export const projects = [
     id: 6,
     title: "Career Portfolio",
     image: dynamicTerminal,
-    category: "Web",
+    category: "Portfolio",
     description: `I present a snapshot of my professional journey, showcasing my skills in software development, including full-stack projects and expertise in modern technologies. The site highlights my work, offering potential employers and clients a clear view of my abilities and accomplishments through a clean and user-friendly design. It's designed to be a comprehensive portfolio that effectively communicates my technical expertise and passion for creating robust digital solutions.`,
     demoLink: "https://anasqazza.vercel.app/",
     stack: [
@@ -514,9 +516,8 @@ export const projects = [
   {
     id: 8,
     title: "Photography Portfolio",
-    image:
-      photographyScreenshot,
-    category: "Web",
+    image: photographyScreenshot,
+    category: "Portfolio",
     description: `The site features a collection of a photographer's best projects, presented in a sleek, modern design
      that emphasizes visual storytelling. Visitors can explore his diverse portfolio, which includes various 
      styles and themes, highlighting his creative versatility and technical expertise. The site also includes an easy-to-use
@@ -546,7 +547,55 @@ export const projects = [
         name: "HTML",
         icon: <SiHtml5 />,
         iconColor: "orange",
-      }
+      },
+    ],
+  },
+  {
+    id: 9,
+    title: "Voovo Movie Recommender",
+    image: voovo,
+    category: "Web",
+    description: `Voovo, is a movie and TV show recommendation platform that leverages APIs to present users with trending and 
+    top-rated movie suggestions. Users can explore popular movies through a visually appealing interface built using React,
+     Next.js, and Swiper.js for carousels. Additionally, the app features an AI-powered recommendation engine, where users can 
+     input their movie preferences and receive personalized suggestions based on those inputs.`,
+    demoLink: "https://voovo.netlify.app/",
+    stack: [
+      {
+        name: "ReactJS",
+        icon: <FaReact />,
+        iconColor: "skyblue",
+      },
+      {
+        name: "JavaScript",
+        icon: <SiJavascript />,
+        iconColor: "yellow",
+      },
+      {
+        name: "Tailwind CSS",
+        icon: <SiTailwindcss />,
+        iconColor: "lightblue",
+      },
+      {
+        name: "CSS",
+        icon: <SiCss3 />,
+        iconColor: "lightblue",
+      },
+      {
+        name: "Next.js",
+        icon: <SiNextdotjs />,
+        iconColor: "black",
+      },
+      {
+        name: "HTML5",
+        icon: <SiHtml5 />,
+        iconColor: "orange",
+      },
+      {
+        name: "Node.js",
+        icon: <FaNodeJs />,
+        iconColor: "green",
+      },      
     ],
   },
 ];
